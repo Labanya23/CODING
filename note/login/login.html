@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Website login html and css</title>
+        <!--link rel="stylesheet" href=""-->
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <span class="hamburger-btn material-symbols-rounded">Menu</span>
+                <a href="#" class="logo">
+                    <h2>Labanya</h2>
+                </a>
+                <ul class="link">
+                    <span class="close-btn material-symbols-rounded">close</span>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <button class="login-btn">Log in</button>
+            </nav>
+        </header>
+
+        <div class="blur-bg-overlay"></div>
+        <div class="form-popup">
+            <span class="close-btn material-symbols-rounded">close</span>
+            <div class="form-box login">
+                <h2>Welcome back</h2>
+                <p>plz login</p>
+            </div>
+            <div class="form-control">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-field">
+                        <input type="text"required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Password</label>
+
+                    </div>
+                    <div class="policy-text">
+                        <input type="checkbox" id="policy">
+                        <label for="policy">
+                            I agree with it
+                            <a href="#" class="option">Terms and codition</a>
+                        </label>
+                    </div>
+                    <button type="submit">Sign up</button>
+                </form>
+                <div class="button-link">
+                    Already have an account?
+                    <a href="#" id="login-link">Login</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
